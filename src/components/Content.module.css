@@ -1,0 +1,17 @@
+.catImageContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
+
+.catImg {
+  width: 600px;
+  height: 600px;
+}

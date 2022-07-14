@@ -1,0 +1,24 @@
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: rgba(151, 119, 215, 0.613);
+  width: 800px;
+  height: 200vh;
+  color: beige;
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.categoryItem {
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.categoryItem:hover {
+  background-color: rgb(74, 24, 94);
+}
